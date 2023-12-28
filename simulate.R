@@ -12,6 +12,14 @@ N <- 500;
 J <- 100;
 K <- 2;  # tumour, normal
 
+
+# test 2
+
+
+# test 2 
+
+
+
 s0 <- 0.5;
 d0 <- 10;
 kappa <- 10;
