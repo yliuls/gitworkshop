@@ -25,6 +25,12 @@ d0 <- 10;
 kappa <- 10;
 gamma <- 0.001;
 
+
+# test 3
+
+# test 3
+
+
 w <- rbeta(N, 2, 2);
 w <- cbind(w, 1-w);
 
@@ -37,6 +43,9 @@ v <- matrix(unlist(lapply(phi, function(p) rbinom(J, 1, p))), nrow=J, ncol=K);
 
 # N x J x K
 z <- array(0, dim = c(N, J, K));
+
+# test 3
+
 for (i in 1:N) {
 	z[i, , ] <- ifelse(v == 0, 
 		rexp(J*K, kappa),
