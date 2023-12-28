@@ -53,12 +53,19 @@ for (i in 1:N) {
 	);
 }
 
+
+## test 4
+
+
 # N x J
 mu <- log(w[ ,1] * exp(z[, , 1]) + w[, 2] * exp(z[, , 2]));
 
 tau <- rgamma(J, d0/2, d0*s0*s0/2);
 summary(tau^-0.5)
 
+
+
+## test 4
 # N x J
 # rnorm takes sd instead of var, so we need to sqrt
 sigma <- tau^-0.5;
