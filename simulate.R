@@ -89,9 +89,13 @@ plot(w[, 1], mu[, j])
 plot(w[, 1], exp(mu[, j]))
 plot(w[, 1], exp(y[, j]))
 
+# test 5
+
+# test 5
 
 # write to file
 
+# test 5
 sim <- list(
 	data = list(
 		N = N, J = J, K = K,
